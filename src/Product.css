@@ -1,0 +1,43 @@
+/* taking everything in coulumn */
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 10px;
+  padding: 20px;
+  max-height: 400px;
+  min-width: 100px;
+  background-color: white;
+  z-index: 1;
+}
+
+/* product image fiting  */
+.product > img {
+  max-height: 200px;
+  width: 100%;
+  object-fit: contain;
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+
+/* written info div  */
+.product__info {
+  height: 100px;
+  margin-bottom: 15px;
+}
+
+.product__price {
+  margin-top: 5px;
+}
+
+/* to take starsr in a line  */
+.product__rating {
+  display: flex;
+}
+.product__button {
+  background-color: #f0c14b;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #111;
+}
